@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fit-text-lg {
+    font-size: calc(min(75vw/20, 75vh/20))
+}
+.fit-text-md {
+    font-size: calc(min(75vw/25, 75vh/25))
+}
+.fit-text-sm {
+    font-size: calc(min(75vw/30, 75vh/30))
+}
+.fit-text-xs {
+    font-size: calc(min(75vw/35, 75vh/35))
+}
+
+.fit-height-md {
+    height: calc(min(75vw/5, 75vh/5))
+}
+.fit-height-md {
+    height: calc(min(75vw/10, 75vh/10))
+}
+.fit-height-sm {
+    height: calc(min(75vw/20, 75vh/20))
+}
+
+
+.fit-width-lg {
+    width: calc(min(75vw/3, 75vh/3))
+}
+.fit-width-2md {
+    width: calc(min(75vw/4, 75vh/4))
+}
+.fit-width-md {
+    width: calc(min(75vw/5, 75vh/5))
+}
+.fit-width-2sm {
+    width: calc(min(75vw/10, 75vh/10))
+}
+.fit-width-sm {
+    width: calc(min(75vw/20, 75vh/20))
+}
+.fit-width-xs {
+    width: calc(min(75vw/25, 75vh/25))
+}
+
+.fit-body {
+    top: calc(min(75vw/5, 75vh/10) + 1%);
+    height: calc(100vh - min(75vw/5, 75vh/10) - 10vh - 2%)
+}
+
+.fit-margin-right-xs {
+    margin-right: calc(min(75vw/30, 75vh/30))
+}
